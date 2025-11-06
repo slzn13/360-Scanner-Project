@@ -1,16 +1,26 @@
 # 360-Scanner-Project
 A Bash-based automation tool for analyzing Wireshark/Tshark-compatible .pcap files. Designed to streamline network traffic analysis, this project generates readable reports from raw captures, helping cybersecurity professionals and system administrators quickly extract key insights.
 
-Install prerequisites:
+
+## Installation & Setup
+
+### 1. Install Prerequisites
+```bash
 sudo apt update
-sudo apt install tshark geoip-bin gnuplot pandoc
-sudo apt install python3-tk
+sudo apt install tshark geoip-bin gnuplot pandoc python3-tk
+```
 
-Give execute permissions to the script:
+### 2. Give Execute Permissions to the Script
+```bash
 chmod +x pcap_scanner.sh
+```
 
-Running script in terminal:
+### 3. Run the Script via Terminal
+```bash
 ./pcap_scanner.sh /path/to/capture.pcap
+```
 
-Running script with Python GUI:
+### 4. Run with Python GUI
+```bash
 python3 pcap_scanner_gui.py
+```
