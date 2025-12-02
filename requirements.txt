@@ -1,0 +1,15 @@
+# Python Dependencies
+tkinter
+# (Tkinter is preinstalled on most systems; install python3-tk if missing)
+
+# System Dependencies
+bash >= 4.0
+tshark  # Wireshark CLI
+coreutils
+awk
+sed
+sort
+uniq
+
+# Optional (for GUI auto-opening)
+xdg-utils
