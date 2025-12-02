@@ -7,17 +7,17 @@ A Bash-based automation tool for analyzing Wireshark/Tshark-compatible .pcap fil
 ### 1. Install Prerequisites
 ```bash
 sudo apt update
-sudo apt install requirements.txt
+sudo apt install tshark python3-tk xdg-utils
 ```
 
 ### 2. Give Execute Permissions to the Script
 ```bash
-chmod +x pcap_analyzer_v3
+chmod +x pcap_analyzer_v3.sh
 ```
 
 ### 3. Run the Script via Terminal
 ```bash
-./pcap_analyzer_v3 /path/to/capture.pcap
+./pcap_analyzer_v3.sh /path/to/capture.pcap
 ```
 
 ### 4. Run with Python GUI
