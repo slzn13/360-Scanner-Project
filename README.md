@@ -7,20 +7,20 @@ A Bash-based automation tool for analyzing Wireshark/Tshark-compatible .pcap fil
 ### 1. Install Prerequisites
 ```bash
 sudo apt update
-sudo apt install tshark geoip-bin gnuplot pandoc python3-tk
+sudo apt install requirements.txt
 ```
 
 ### 2. Give Execute Permissions to the Script
 ```bash
-chmod +x pcap_scanner.sh
+chmod +x pcap_analyzer_v3
 ```
 
 ### 3. Run the Script via Terminal
 ```bash
-./pcap_scanner.sh /path/to/capture.pcap
+./pcap_analyzer_v3 /path/to/capture.pcap
 ```
 
 ### 4. Run with Python GUI
 ```bash
-python3 pcap_scanner_gui.py
+python3 analyzer-gui-v3.py
 ```
