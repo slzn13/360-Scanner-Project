@@ -2,7 +2,17 @@
 A Bash-based automation tool for analyzing Wireshark/Tshark-compatible .pcap files. Designed to streamline network traffic analysis, this project generates readable reports from raw captures, helping cybersecurity professionals and system administrators quickly extract key insights.
 
 ## Demo Video
-[![Watch the video](https://img.youtube.com/vi/mOEv5ExT0iY/maxresdefault.jpg)](https://youtu.be/mOEv5ExT0iY)
+<div align="center">
+  <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/mOEv5ExT0iY" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+  </iframe>
+</div>
 
 ## Installation & Setup
 
