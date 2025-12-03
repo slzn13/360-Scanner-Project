@@ -5,7 +5,7 @@ import os
 import platform
 import tempfile
 
-ANALYZER_SCRIPT = "./analyzer.v3"   # your script name
+ANALYZER_SCRIPT = "./pcap_analyzer_v3.sh"   # your script name
 
 def open_file_crossplatform(path):
     system = platform.system()
